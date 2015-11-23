@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Introduction | Introduction</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="What is machine learning? Why is it so cool? This is the first time that youwill have a thing. Here is an equation:">
+        <meta name="description" content="The term neural network is an evocative one, suggesting machines capable ofhuman-level intelligence, autonomy, and even sentience. More than any othertechnology in the now maturing discipline of machinelearning, neural networks areredolent of science fiction, bringing to mind the misanthropic intellect ofHAL 9000 in 2001: A Space Odyssey,or the genial wisdom of Lieutenant CommanderData, from Star Trek.">
         <meta name="generator" content="GitBook 2.5.2">
         
         
@@ -22,6 +22,10 @@
     
         
         <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-image-captions/image-captions.css">
         
     
         
@@ -41,7 +45,7 @@
         
     
     
-    <link rel="next" href="./chapters/the_neuron.html" />
+    <link rel="next" href="./chapters/neural_network_overview.html" />
     
     
 
@@ -50,7 +54,7 @@
     <body>
         
         
-    <div class="book" data-level="0" data-chapter-title="Introduction" data-filepath="README.md" data-basepath="." data-revision="Sun Nov 22 2015 13:37:04 GMT-0500 (EST)">
+    <div class="book" data-level="0" data-chapter-title="Introduction" data-filepath="README.md" data-basepath="." data-revision="Sun Nov 22 2015 22:46:11 GMT-0500 (EST)">
     
 
 <div class="book-summary">
@@ -78,32 +82,32 @@
             
         </li>
     
-        <li class="chapter " data-level="1" data-path="chapters/the_neuron.html">
+        <li class="chapter " data-level="1" data-path="chapters/neural_network_overview.html">
             
                 
-                    <a href="./chapters/the_neuron.html">
+                    <a href="./chapters/neural_network_overview.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
                         
-                        The Neuron
+                        Neural Networks
                     </a>
             
             
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1" data-path="chapters/the_network.html">
+        <li class="chapter " data-level="1.1" data-path="chapters/neurons.html">
             
                 
-                    <a href="./chapters/the_network.html">
+                    <a href="./chapters/neurons.html">
                 
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
                         
-                        The Network
+                        The Neuron
                     </a>
             
             
@@ -148,14 +152,31 @@
                     <section class="normal" id="section-">
                     
                         <h1 id="introduction">Introduction</h1>
-<p>What is machine learning? Why is it so cool? This is the first time that you
-will have a thing. Here is an equation:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&#x222B;</mo><msup><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
-\int{-\infty}^\infty g(x) dx
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.36em;"></span><span class="strut bottom" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="base displaystyle textstyle uncramped"><span class="op-symbol large-op mop" style="margin-right:0.44445em;top:-0.0011249999999999316em;">&#x222B;</span><span class="mord"><span class="mord displaystyle textstyle uncramped"><span class="mord">&#x2212;</span><span class="mord mathrm">&#x221E;</span></span><span class="vlist"><span style="top:-0.413em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathrm">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></span></p>
-<p>And here is some additional text after that! now how will equations be rendered?
-there is no way to tell.</p>
-<p>And here is a new paragraph. How will these things work?</p>
+<p>The term <em>neural network</em> is an evocative one, suggesting machines capable of
+human-level intelligence, autonomy, and even sentience. More than any other
+technology in the now maturing discipline of <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">machine
+learning</a>, neural networks are
+redolent of science fiction, bringing to mind the misanthropic intellect of
+<a href="https://en.wikipedia.org/wiki/HAL_9000" target="_blank">HAL</a> 9000 in <em>2001: A Space Odyssey</em>,
+or the genial wisdom of Lieutenant Commander
+<a href="https://en.wikipedia.org/wiki/Data_(Star_Trek" target="_blank">Data</a>, from <em>Star Trek</em>.</p>
+<p>While modern artificial neural networks (ANNs) were originally inspired by
+biological neural networks, it is now clear that the architecture of biological
+networks are so much more complex, and the networks so much more capable, that
+it is better not to draw too many parallels between the biological networks and
+their artificial counterparts.</p>
+<h3 id="how-is-this-possible">How is this possible?</h3>
+<p>In the last decade computational power has become cheaper</p>
+<figure><img src="images/gigflops_over_the_years.png" alt="The cost of one billion floating point operations per second (one GFLOPS) in
+2013 dollars, from 1960 to 2015. In that 55 year span, the price of a GFLOPS
+has dropped an astonishing amount, from $8.3 trillion to $0.08.
+(http://bit.ly/1XjYx2s)"><figcaption class="left">The cost of one billion floating point operations per second (one GFLOPS) in
+2013 dollars, from 1960 to 2015. In that 55 year span, the price of a GFLOPS
+has dropped an astonishing amount, from $8.3 trillion to $0.08.
+(http://bit.ly/1XjYx2s)</figcaption></figure>
+<h4 id="the-rise-of-the-gpu">The Rise of the GPU</h4>
+<p>One of the most critical pieces of technology to emerge is the Graphical
+Processing Unit (GPU).</p>
 
                     
                     </section>
@@ -167,7 +188,7 @@ there is no way to tell.</p>
 
         
         
-        <a href="./chapters/the_neuron.html" class="navigation navigation-next navigation-unique" aria-label="Next page: The Neuron"><i class="fa fa-angle-right"></i></a>
+        <a href="./chapters/neural_network_overview.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Neural Networks"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
@@ -193,7 +214,7 @@ there is no way to tell.</p>
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"katex":{},"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"image-captions":{"align":"left","caption":"_CAPTION_"},"katex":{},"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>

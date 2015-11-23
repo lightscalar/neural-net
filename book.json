@@ -1,4 +1,10 @@
 {
     "gitbook": "2.x.x",
-    "plugins": ["katex"]
+    "plugins": ["katex","image-captions"],
+    "pluginsConfig": {
+                        "image-captions": {
+                              "align": "left",
+                              "caption": "_CAPTION_"
+                        }
+                     }
 }

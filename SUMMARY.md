@@ -1,4 +1,4 @@
 # Summary
 
-* [The Neuron](chapters/the_neuron.md)
-    * [The Network](chapters/the_network.md)
+* [Neural Networks](chapters/neural_network_overview.md)
+    * [The Neuron](chapters/neurons.md)
