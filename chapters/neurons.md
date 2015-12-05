@@ -8,7 +8,7 @@ def brain(args):
     return  args + 1   
 ```
 
-Let's write down an import equation:
+Let's write down an import equation, like \ref{matrix}:
 
 $$
 A_{ij} = 42 \tag{1} \label{matrix}
