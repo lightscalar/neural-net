@@ -7,3 +7,5 @@ While modern artificial neural networks were inspired by mammalian biological
 neural networks, it is clear that the architecture of biological networks is so
 much more complex, and the networks so much more capable
 
+
+$$\int_0^\infty f(x) = 0$$
