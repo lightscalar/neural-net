@@ -16,7 +16,7 @@ introduce the reader to them in a pragmatic way, so that she will not only
 understand the underlying mathematics, but will also be able to readily
 implement networks to solve real world problems. For this purpose, we use the
 powerful [Tensor Flow](http://www.tensorflow.org/) machine intelligence package
-recently open-sourced by Google. 
+[recently](http://goo.gl/pBU1hy) open-sourced by Google. 
 
 Why TensorFlow? There are many packages out there, including
 [Torch7](http://torch.ch), [Theano](http://deeplearning.net/software/theano/),
