@@ -1,8 +1,3 @@
-An Introduction to Neural Networks
-=======
-
-# Introduction
-
 The term _neural network_ is an evocative one, suggesting machines capable of
 human-level intelligence, autonomy, and even sentience. More than any other
 technology in the discipline of [machine
