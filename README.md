@@ -4,7 +4,7 @@ technology in the discipline of [machine
 learning](https://en.wikipedia.org/wiki/Machine_learning), neural networks are
 redolent of science fiction, bringing to mind the malevolent intellect of [HAL
 9000](https://en.wikipedia.org/wiki/HAL_9000) from _2001: A Space Odyssey_, or
-the genial wisdom of [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek) from
+the genial wisdom of [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)) from
 _Star Trek_. Yet neural networks are now ubiquitous, if largely invisible. They
 are not sentient AIs, but rather increasingly useful tools for solving
 problems that simply cannot be tackled by other methods. Voice recognition,
