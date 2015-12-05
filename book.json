@@ -1,5 +1,6 @@
 {
     "gitbook": "2.x.x",
+    "title": "An Introduction to Neural Networks"
     "plugins": ["mathjax","image-captions"],
     "pluginsConfig": {
                         "image-captions": {
