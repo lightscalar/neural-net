@@ -19,12 +19,12 @@ world problems. For this purpose, we use the powerful [Tensor
 Flow](http://www.tensorflow.org/) machine intelligence package
 [recently](http://goo.gl/pBU1hy) open-sourced by Google. 
 
-Why TensorFlow? There are many packages out there, including
+Why TensorFlow? There are many packages out there, including the excellent
 [Torch7](http://torch.ch), [Theano](http://deeplearning.net/software/theano/),
-and [pybrain](http://pybrain.org/). TensorFlow strikes an excellent balance between abstraction and
-control. The framework allows us to quickly develop sophisticated networks. It
-provides seamless, transparent integration with a GPU, which allows us to speed
-up computations by orders of magnitude, and there is no or little compilation
-time for large models — a problem from which Theano, for all its flexibility,
-greatly suffers.
+and [pybrain](http://pybrain.org/). TensorFlow strikes a good balance between
+abstraction and control. The framework allows us to quickly develop
+sophisticated networks. It provides transparent integration with the GPU via CUDA libraries
+allowing us to speed up computations by orders of magnitude, and there is no or
+little compilation time for large models — a problem from which Theano, for all
+its flexibility, greatly suffers.
 
