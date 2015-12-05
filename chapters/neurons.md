@@ -11,7 +11,7 @@ def brain(args):
 Let's write down an import equation:
 
 $$
-A_{ij} = 42 
+A_{ij} = 42 \tag{1} \label{matrix}
 $$
 
 But perhaps you are inspired by poetry? Here is a quote:
