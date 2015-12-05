@@ -63,6 +63,8 @@ dramatically over the last sixty years. Consider Figure 1.1, which plots the
 cost of one billion floating point operations per second from 1960 until
 January 2015.
 
+$$f(x) = 4 \label{first} \tag{Eq. 1}$$
+
 ![The cost of one billion floating point operations per second (one GFLOPS) in
 adjusted 2013 dollars, from 1960 to 2015. In that 55 year span, the cost of a
 GFLOPS has dropped an astonishing amount, from $8.3 trillion to $0.08. Note the
