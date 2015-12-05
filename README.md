@@ -69,5 +69,5 @@ $$f(x) = 4 \label{first} \tag{Eq. 1}$$
 adjusted 2013 dollars, from 1960 to 2015. In that 55 year span, the cost of a
 GFLOPS has dropped an astonishing amount, from $8.3 trillion to $0.08. Note the
 scale here is logarithmic.
-(http://bit.ly/1XjYx2s)](/images/time.png)
+(http://bit.ly/1XjYx2s)](https://github.com/lightscalar/neural-net/blob/master/images/gigflops_over_the_years.png)
 
