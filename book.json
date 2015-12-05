@@ -1,6 +1,6 @@
 {
     "gitbook": "2.x.x",
-    "plugins": ["katex","image-captions"],
+    "plugins": ["mathjax","image-captions"],
     "pluginsConfig": {
                         "image-captions": {
                               "align": "left",
