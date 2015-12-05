@@ -12,22 +12,28 @@ language translation, and image recognition are now possible due to the rise of
 practical neural networks. 
 
 The aim of this book is to demystify neural networks and deep learning, and to
-introduce the reader to them in a pragmatic way, so that she will not only
-understand the underlying mathematics (which is really not all that
-complicated), but will also be able to implement networks to solve real
-world problems. For this purpose, we use the powerful [Tensor
-Flow](http://www.tensorflow.org/) machine intelligence package
-[recently](http://goo.gl/pBU1hy) open-sourced by Google. 
+introduce the reader to them in a pragmatic way, so that she will 
+understand the underlying mathematics (which are **not** that complicated), but
+also be able to implement networks to solve real world problems. For this
+purpose, we use the powerful [Tensor Flow](http://www.tensorflow.org/) machine
+intelligence package [recently](http://goo.gl/pBU1hy) open-sourced by Google. 
 
 Why TensorFlow? There are many computational frameworks out there, including
 the excellent [Torch7](http://torch.ch),
 [Theano](http://deeplearning.net/software/theano/), and
-[pybrain](http://pybrain.org/) libraries. I find that TensorFlow strikes a good
-balance between abstraction and control. The framework allows us to quickly
-develop sophisticated networks; it provides transparent integration with the
-GPU; the TensorBoard tool allows us to visualize our computation graph and
-inspect our models. Although we write TensorFlow models in Python, TensorFlow
-does the heavy computational lifting with fast, optimized C++ libraries.  In
-short, TensorFlow allows us to create, compute, and visualize complex neural
-network models. 
+[pybrain](http://pybrain.org/) libraries. First, we write TensorFlow models in
+Python. Python has a vast range of libraries for machine learning, data
+processing, hardware interfacing, _etc_. TensorFlow does the heavy
+computational lifting with fast, optimized C++ libraries. find that TensorFlow
+strikes a good balance between abstraction and control. The framework allows us
+to quickly develop sophisticated networks; it provides transparent integration
+with the GPU; the TensorBoard tool allows us to visualize our computation graph
+and inspect our models as they are being trained. 
+
+
+
+Although we write TensorFlow models in Python, TensorFlow does the heavy
+computational lifting with fast, optimized C++ libraries.  In short, TensorFlow
+allows us to create, compute, and visualize complex neural network models
+without burying the details under too many layers of abstraction. 
 
