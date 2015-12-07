@@ -14,7 +14,7 @@ $$
 A_{ij} = 42 \tag{1} \label{matrix}
 $$
 
-But perhaps you are inspired by poetry? Here is a quote:
+But perhaps you are better inspired by poetry? Here is a quote:
 
 > There is a pleasure in the pathless woods,   
 > There is a rapture on the lonely shore,  
@@ -28,7 +28,7 @@ But perhaps you are inspired by poetry? Here is a quote:
 
 ![
  This is a lengthier caption, one that we might have if we needed to explain
-an important concept, particularly one that is compelex.
+an important concept, particularly one that is complex.
 ](http://wileywitch.com/wp-content/uploads/2013/02/173_neurons.jpg)
 
 [link](http://www.nytimes.com)
